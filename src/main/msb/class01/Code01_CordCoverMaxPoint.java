@@ -68,7 +68,7 @@ public class Code01_CordCoverMaxPoint {
 	public static void main(String[] args) {
 		int len = 100;
 		int max = 1000;
-		int testTime = 100000;
+		int testTime = 1000;
 		System.out.println("测试开始");
 		for (int i = 0; i < testTime; i++) {
 			int L = (int) (Math.random() * max);
