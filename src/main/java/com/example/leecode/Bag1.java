@@ -5,7 +5,7 @@ public class Bag1 {
     public static void main(String[] args) {
         int[] w = new int[]{1, 2, 3, 4, 5};
         int[] v = new int[]{50, 40, 30, 20, 10};
-        int bag = 6;
+        int bag = 7;
         int maxValue = process(w, v, 0, bag);
         int maxValue2 = dpProcess(w,v,bag);
         System.out.println(maxValue);
