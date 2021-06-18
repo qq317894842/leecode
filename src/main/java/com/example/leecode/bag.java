@@ -50,7 +50,7 @@ public class bag {
         //dp[N][...]=0;
         for(int index=N-1;index>=0;index--){
             for(int rest=0;rest<=bag;rest++){
-                int p1 = dp[index+1][bag];
+                int p1 = dp[index+1][rest];
                 int p2Next = rest-weight[index]<0?-1:dp[index+1][rest-weight[index]];
                 int p2 = 0;
                 if(p2Next!=-1){
