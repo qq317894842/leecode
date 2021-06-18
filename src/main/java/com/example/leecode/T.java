@@ -10,23 +10,10 @@ import java.util.List;
  */
 public class T {
 
-    public List<Integer> getLine(int n){
-        if(n == 1){
-            ArrayList<Integer> list = new ArrayList<>();
-            list.add(1);
-            return list;
-        }
-        return null;
-    }
-
-    public List<List<Integer>> sanjiao(int n){
-        List<List<Integer>> result = new ArrayList<>();
-
-        for(int i=0;i<n-1;i++){
-
-        }
-
-        return null;
+    public static void main(String[] args) {
+        long a = (long)Math.pow(2,5) -1;
+        a = a<<2&32;
+        System.out.println(Long.toBinaryString(a));
     }
 
 }
