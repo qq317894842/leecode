@@ -29,7 +29,6 @@ public class bag {
         if(index==weight.length){
             return 0;
         }
-
         int p1 = process(weight, value,index+1, alreadyW, bag);
         int p2Next = process(weight, value, index+1,alreadyW+weight[index],bag);
         int p2 = -1;
